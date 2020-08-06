@@ -1,3 +1,5 @@
+<!DOCTYPE html><html>
+
 <script src="jasmine/src/thermostat.js"></script>
 <script src="jquery-3.5.1.js"></script>
 <script src="interface.js"></script>
@@ -13,4 +15,15 @@
 <p>Power saving: <b id="power-status"></b></p>
 <button id="power-saving">power_saving</button><br><br>
 
-<button id="reset">reset</button>
+<button id="reset">reset</button><br><br>
+
+<label for="cities">Choose your city:</label>
+<select name="cities" id="cities">
+  <option value="London">London</option>
+  <option value="Paris">Paris</option>
+  <option value="Berlin">Berlin</option>
+</select>
+
+<p>The temperature in your city is currently <b id="city-temp"></b></p>
+
+</html>
