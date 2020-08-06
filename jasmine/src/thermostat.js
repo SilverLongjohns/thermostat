@@ -25,9 +25,9 @@ class Thermostat {
   }
 
   powerSave() {
-    if (this.powerSaving = true) {
+    if (this.powerSaving == true) {
       this.powerSaving = false
-    } else {
+    } else if (this.powerSaving == false) {
       this.powerSaving = true
     }
   }
